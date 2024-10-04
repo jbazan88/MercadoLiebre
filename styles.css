@@ -79,7 +79,7 @@ header>nav>ul>li>a{
 font-size: 12px;
   }
 
-.login {
+ .login {
   background-color:#ebebeb;
   padding: 20px 0;
   text-align: center;
@@ -130,6 +130,26 @@ font-size: 12px;
 .reg-h2 {
   margin: 0 7.5vw;
 } 
+
+.reg-radio {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 7.5vw;
+} 
+
+.reg-div>button[type="submit"] {
+  background-color:#1259c3;
+  color: white;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.reg-div>button[type="reset"] {
+  background-color:#03264C;
+  color:#ebebeb;
+  padding: 10px 0;
+  text-align: center;
+}
 
   footer {
     text-align: center;
