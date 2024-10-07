@@ -1,0 +1,17 @@
+footer {
+    text-align: center;
+}
+
+footer>div {
+    margin: 30px;
+}
+
+footer>div i {
+    color: #1259c3;
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.Copyright {
+    color: #666;
+}

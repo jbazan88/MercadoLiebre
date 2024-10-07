@@ -1,0 +1,44 @@
+header {
+    background-color: var(--color-amarillo);
+    text-align: center;
+}
+
+header>a>img {
+    width: 200px;
+    margin: 10px;
+}
+
+header>form>input {
+    width: 75vw;
+    padding: 10px;
+    border: none;
+}
+
+header>form>button {
+    padding: 10px;
+    border: none;
+    margin-left: -4px;
+}
+
+.font-size-description {
+    margin: 10px;
+}
+
+header>nav ul{
+    margin: 10px;
+}
+
+header>nav>ul>li>a{
+    text-decoration: none;
+    color: black;
+}
+
+.burger-menu{
+    display:inline-block;
+    color: white;
+    padding: 4px 6px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    background-color:#1259c3;
+    border: solid #1259c3;
+}
