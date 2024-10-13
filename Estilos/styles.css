@@ -1,0 +1,119 @@
+@import url(Header.css);
+@import url(Footer.css);
+@import url(login.css);
+@import url(register.css);
+
+:root {
+  --color-amarillo: #EAC926;
+  --color-azul: #03264C;
+  --color-celeste: #1259c3;
+  --color-gris-oscuro: #666;
+  --color-gris-claro: #ebebeb;
+  --color-verde: #39b54a;
+}
+
+* {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 12px;
+}
+
+body {
+  background-color: #ebebeb;
+}
+
+.banner {
+  width: 100%;
+}
+
+h2 {
+  font-size: 24px;
+  color: #666;
+  width: 100%;
+  margin-left: 20px;
+  margin-bottom: auto;
+  margin-top: 10px;
+}
+
+.contenedor_section {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.articulos {
+  background-color: white;
+  border-radius: 10px;
+  text-align: center;
+  overflow: hidden;
+  margin-top: 25px;
+  width: 90%;
+}
+
+img {
+  width: 100%;
+}
+
+.articulo_div {
+  border-top: solid 1px #ebebeb;
+  margin: 20px;
+  text-align: start;
+  }
+
+.fa-truck {
+
+  color: #39b54a;
+  padding: 12px 10px;
+  border: solid 1px;
+  border-radius: 100%;
+  position: relative;
+  top: -20px;
+  float: right;
+}
+
+.font-size-prices {
+  font-size: 18px;
+  }
+
+.font-size-discounts {
+  font-size: 16px;
+    color: #39b54a;
+}
+
+h4 {
+  color: #666;
+  font-size: 16px;
+  margin-top: 15px;
+  
+}
+
+@media (min-width:768px) {
+  h4 {
+    display: block;
+  }
+
+  .contenedor_section {
+
+    .articulos {
+      box-shadow: 0px 0px 10px rgb(100, 100, 100);
+      width: 40%;
+    }
+  }
+}
+
+@media (min-width:1024px) {
+  .contenedor_section {
+    display: flex;
+    flex-wrap: wrap;
+
+    .articulos {
+      width: 20%;
+
+      img {
+        width: 100%;
+      }
+    }
+  }
+}
