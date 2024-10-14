@@ -28,7 +28,7 @@ body {
   width: 100%;
 }
 
-h2 {
+.home-h2 {
   font-size: 24px;
   color: #666;
   width: 100%;
@@ -60,7 +60,7 @@ img {
   border-top: solid 1px #ebebeb;
   margin: 20px;
   text-align: start;
-  }
+}
 
 .fa-truck {
 
@@ -75,18 +75,18 @@ img {
 
 .font-size-prices {
   font-size: 18px;
-  }
+}
 
 .font-size-discounts {
   font-size: 16px;
-    color: #39b54a;
+  color: #39b54a;
 }
 
 h4 {
   color: #666;
   font-size: 16px;
   margin-top: 15px;
-  
+
 }
 
 @media (min-width:768px) {
